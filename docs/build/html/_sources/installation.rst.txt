@@ -7,8 +7,8 @@ Follow these steps to set up and run the API:
 
    .. code-block:: sh
 
-      git clone https://github.com/#/task-management-api.git
-      cd task-management-api
+      git clone https://github.com/mohamedalmllah/tms.git
+      cd tms
 
 2. **Create and Activate a Virtual Environment**
 
@@ -22,8 +22,12 @@ Follow these steps to set up and run the API:
       # Windows PowerShell
       venv\Scripts\Activate.ps1
 
-      # Mac/Linux/Git Bash
+      # Mac/Linux
       source venv/bin/activate
+
+      # Git Bash
+      source venv/Scripts/activate
+
 
 3. **Install Dependencies**
 
