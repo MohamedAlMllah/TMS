@@ -33,7 +33,7 @@ Follow these steps to set up and run the API:
 
    .. code-block:: sh
 
-      pip install -r requirements.txt
+      pip install djoser djangorestframework
 
 4. **Run Migrations/seeders**
 

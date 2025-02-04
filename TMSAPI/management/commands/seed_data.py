@@ -10,6 +10,15 @@ class Command(BaseCommand):
     help = "Seed the database with initial data"
 
     def handle(self, *args, **kwargs):
+        # Create Superuser
+        superuser, created = User.objects.get_or_create(username="admin", defaults={
+            "email": "admin@example.com",
+            "is_superuser": True,
+            "is_staff": True
+        })
+        superuser.set_password("abc@2025")
+        superuser.save()
+
         # Create Manager User
         manager, created = User.objects.get_or_create(username="manager1", defaults={
             "email": "manager@example.com",
