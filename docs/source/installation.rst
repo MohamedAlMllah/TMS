@@ -7,7 +7,7 @@ Follow these steps to set up and run the API:
 
    .. code-block:: sh
 
-      git clone https://github.com/#/task-management-api.git
+      git clone https://github.com/mohamedalmllah/tms.git
       cd task-management-api
 
 2. **Create and Activate a Virtual Environment**
